@@ -1,0 +1,7 @@
+data/
+logs/
+netwatch
+netwatch.yaml
+*.db
+*.pid
+screenshots/capture.mjs
