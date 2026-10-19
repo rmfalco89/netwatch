@@ -347,7 +347,7 @@ function renderAbout(el) {
             carries published ports. Individual containers can't be told apart from the Mac.</p>
             <h3>Before 2026-10-19</h3>
             <p>Older data came from one-shot samples that mixed loopback with network traffic and booked phantom traffic whenever a
-            connection closed. It is kept in the database (table <code>usage</code>) but not shown.</p>
+            connection closed. It was discarded.</p>
         </div>
         <div class="settings-section"><h3>Collector</h3><div id="status-detail">Loading…</div></div>`;
     api('/api/status').then(s => {
